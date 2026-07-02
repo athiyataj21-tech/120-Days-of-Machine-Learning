@@ -1,130 +1,147 @@
-# 🚀 120 Days of Machine Learning: From Foundations to MLOps
+# 🚀 120 Days of Machine Learning
 
-Welcome to my **120 Days of Machine Learning** journey. This repository documents my structured learning path from Python fundamentals and statistics to advanced Machine Learning, Deep Learning, NLP, Generative AI, and MLOps.
+A structured **120-day Machine Learning roadmap** documenting my journey from Python fundamentals to MLOps through hands-on coding, theory, notebooks, and mini projects.
 
-The goal of this challenge is to build a strong foundation in AI/ML through consistent daily learning, hands-on coding, notebooks, and real-world projects.
-
----
-
-## 📌 Objectives
-
-- Master Python for Data Science and Machine Learning
-- Build strong foundations in Mathematics and Statistics
-- Learn Supervised and Unsupervised Learning algorithms
-- Develop Deep Learning and Computer Vision solutions
-- Explore NLP, Transformers, and Generative AI
-- Understand MLOps, Deployment, and Production ML systems
-- Build an industry-ready Machine Learning portfolio
+> 🎯 Goal: Build strong Machine Learning fundamentals and create a portfolio-ready GitHub repository.
 
 ---
 
-## 🗺️ Learning Roadmap
+## 📅 Progress
 
-| Phase | Focus Area | Status |
-|---------|------------|---------|
-| Phase 1 | Foundations (Python, Math, Statistics & Preprocessing) | 🔄 In Progress |
-| Phase 2 | Supervised Learning | ⏳ Upcoming |
-| Phase 3 | Unsupervised Learning | ⏳ Upcoming |
-| Phase 4 | Deep Learning & Computer Vision | ⏳ Upcoming |
-| Phase 5 | NLP & Transformers | ⏳ Upcoming |
-| Phase 6 | MLOps & Deployment | ⏳ Upcoming |
+| Phase | Topics | Status |
+|--------|--------|--------|
+| ✅ Phase 1 | Foundations | In Progress (Day 2/20) |
+| ⏳ Phase 2 | Supervised Learning | Not Started |
+| ⏳ Phase 3 | Unsupervised Learning | Not Started |
+| ⏳ Phase 4 | Deep Learning | Not Started |
+| ⏳ Phase 5 | NLP & Transformers | Not Started |
+| ⏳ Phase 6 | MLOps & Deployment | Not Started |
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
-120_Days_of_Machine_Learning/
+120_Days_of_Machine_Learning
 │
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── 01_Foundations/
-│   └── Day_01_Variables_and_Data_Types/
+├── 01_Foundations
+│   ├── Day_01_Variables_and_Data_Types
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day01.ipynb
+│   │
+│   └── Day_02_Python_Operators
 │       ├── theory.md
 │       ├── notes.md
 │       ├── practice.py
-│       └── day01.ipynb
+│       └── day02.ipynb
 │
-├── datasets/
-├── images/
-└── resources/
+├── datasets
+├── images
+├── resources
+│
+├── environment.yml
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## 📈 Progress Tracker
+# 🗺️ Roadmap
 
-### Phase 1: Foundations
+## Phase 1 — Foundations (Days 1–20)
 
-| Day | Topic | Status |
-|-----|--------|---------|
-| Day 1 | Variables and Data Types | ✅ Completed |
-| Day 2 | Python Operators | ⏳ Upcoming |
-| Day 3 | Control Flow Statements | ⏳ Upcoming |
-| Day 4 | Functions | ⏳ Upcoming |
-| Day 5 | Data Structures | ⏳ Upcoming |
+- ✅ Day 1 — Variables & Data Types
+- ✅ Day 2 — Python Operators
+- ⏳ Day 3 — Conditional Statements
+- ⏳ Day 4 — Loops
+- ⏳ Day 5 — Functions
+- ⏳ Day 6 — Lists
+- ⏳ Day 7 — Tuples
+- ⏳ Day 8 — Dictionaries
+- ⏳ Day 9 — Sets
+- ⏳ Day 10 — Strings
+- ⏳ Day 11 — File Handling
+- ⏳ Day 12 — Exception Handling
+- ⏳ Day 13 — OOP
+- ⏳ Day 14 — NumPy Basics
+- ⏳ Day 15 — Pandas Basics
+- ⏳ Day 16 — Data Cleaning
+- ⏳ Day 17 — Data Visualization
+- ⏳ Day 18 — Statistics
+- ⏳ Day 19 — Probability
+- ⏳ Day 20 — Mini Project
 
 ---
 
-## 🛠️ Tech Stack
+## 📖 Daily Learning Resources
+
+Each day contains:
+
+- 📚 Theory Notes
+- 📝 Quick Revision Notes
+- 💻 Python Practice
+- 📓 Jupyter Notebook
+- 🎯 Interview Questions
+- 🧠 Hands-on Examples
+
+---
+
+# 🛠️ Tech Stack
 
 ### Programming Language
-- Python
 
-### Libraries & Frameworks
+- Python 3.10+
+
+### Libraries
+
 - NumPy
 - Pandas
 - Matplotlib
-- SciPy
+- Seaborn
 - Scikit-learn
-- TensorFlow
-- PyTorch
-- Transformers
-- NLTK
-- Gensim
-- XGBoost
-- LightGBM
-- FastAPI
-- Streamlit
-- MLflow
-- PySpark
+- SciPy
 
 ### Tools
+
 - VS Code
 - Jupyter Notebook
 - Git
 - GitHub
+- Anaconda
 
 ---
 
-## 🎯 Repository Format
+# 🎯 Objectives
 
-Each day contains:
+By the end of this roadmap I will be able to:
 
-- **theory.md** → Detailed concepts and explanations
-- **notes.md** → Quick revision notes
-- **practice.py** → Hands-on coding exercises
-- **dayXX.ipynb** → Interactive Jupyter notebook
-
----
-
-## 📚 Learning Approach
-
-1. Learn the concept
-2. Take structured notes
-3. Implement code examples
-4. Practice exercises
-5. Solve interview questions
-6. Upload progress to GitHub
+- Write clean Python code
+- Perform data preprocessing
+- Apply Machine Learning algorithms
+- Build Deep Learning models
+- Work with NLP and Transformers
+- Deploy ML models
+- Understand MLOps fundamentals
 
 ---
 
-## 🤝 Connect With Me
+# 📈 Progress Tracker
 
-**GitHub:** https://github.com/athiyataj21-tech
+- ✅ Day 1 Completed
+- ✅ Day 2 Completed
+- ⏳ Day 3 Coming Soon
 
 ---
 
-⭐ If you find this repository helpful, feel free to star it and follow my learning journey.
+# ⭐ Connect
+
+If you find this repository helpful, consider giving it a ⭐.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
