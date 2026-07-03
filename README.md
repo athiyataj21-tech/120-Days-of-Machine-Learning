@@ -2,15 +2,15 @@
 
 A structured **120-day Machine Learning roadmap** documenting my journey from Python fundamentals to MLOps through hands-on coding, theory, notebooks, and mini projects.
 
-> 🎯 Goal: Build strong Machine Learning fundamentals and create a portfolio-ready GitHub repository.
+> 🎯 **Goal:** Build strong Machine Learning fundamentals and create a portfolio-ready GitHub repository.
 
 ---
 
-## 📅 Progress
+# 📅 Progress
 
 | Phase | Topics | Status |
 |--------|--------|--------|
-| ✅ Phase 1 | Foundations | In Progress (Day 2/20) |
+| ✅ Phase 1 | Foundations | In Progress (Day 3/20) |
 | ⏳ Phase 2 | Supervised Learning | Not Started |
 | ⏳ Phase 3 | Unsupervised Learning | Not Started |
 | ⏳ Phase 4 | Deep Learning | Not Started |
@@ -31,11 +31,17 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 │   │   ├── practice.py
 │   │   └── day01.ipynb
 │   │
-│   └── Day_02_Python_Operators
+│   ├── Day_02_Python_Operators
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day02.ipynb
+│   │
+│   └── Day_03_Conditional_Statements
 │       ├── theory.md
 │       ├── notes.md
 │       ├── practice.py
-│       └── day02.ipynb
+│       └── day03.ipynb
 │
 ├── datasets
 ├── images
@@ -55,7 +61,7 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 
 - ✅ Day 1 — Variables & Data Types
 - ✅ Day 2 — Python Operators
-- ⏳ Day 3 — Conditional Statements
+- ✅ Day 3 — Conditional Statements
 - ⏳ Day 4 — Loops
 - ⏳ Day 5 — Functions
 - ⏳ Day 6 — Lists
@@ -65,7 +71,7 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 - ⏳ Day 10 — Strings
 - ⏳ Day 11 — File Handling
 - ⏳ Day 12 — Exception Handling
-- ⏳ Day 13 — OOP
+- ⏳ Day 13 — Object-Oriented Programming (OOP)
 - ⏳ Day 14 — NumPy Basics
 - ⏳ Day 15 — Pandas Basics
 - ⏳ Day 16 — Data Cleaning
@@ -76,13 +82,13 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 
 ---
 
-## 📖 Daily Learning Resources
+# 📖 Daily Learning Resources
 
-Each day contains:
+Each day includes:
 
 - 📚 Theory Notes
 - 📝 Quick Revision Notes
-- 💻 Python Practice
+- 💻 Python Practice Exercises
 - 📓 Jupyter Notebook
 - 🎯 Interview Questions
 - 🧠 Hands-on Examples
@@ -114,16 +120,16 @@ Each day contains:
 
 ---
 
-# 🎯 Objectives
+# 🎯 Learning Objectives
 
-By the end of this roadmap I will be able to:
+By the end of this roadmap, I will be able to:
 
-- Write clean Python code
-- Perform data preprocessing
-- Apply Machine Learning algorithms
-- Build Deep Learning models
-- Work with NLP and Transformers
-- Deploy ML models
+- Write clean and efficient Python code
+- Perform data preprocessing and cleaning
+- Build and evaluate Machine Learning models
+- Develop Deep Learning applications
+- Work with NLP and Transformer models
+- Deploy Machine Learning models
 - Understand MLOps fundamentals
 
 ---
@@ -132,16 +138,17 @@ By the end of this roadmap I will be able to:
 
 - ✅ Day 1 Completed
 - ✅ Day 2 Completed
-- ⏳ Day 3 Coming Soon
+- ✅ Day 3 Completed
+- ⏳ Day 4 Coming Soon
 
 ---
 
-# ⭐ Connect
+# ⭐ Support
 
-If you find this repository helpful, consider giving it a ⭐.
+If you find this repository helpful, consider giving it a **⭐ Star**.
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
