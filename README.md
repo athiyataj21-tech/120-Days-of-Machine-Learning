@@ -10,7 +10,7 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 
 | Phase | Topics | Status |
 |--------|--------|--------|
-| ✅ Phase 1 | Foundations | In Progress (Day 3/20) |
+| ✅ Phase 1 | Foundations | In Progress (Day 4/20) |
 | ⏳ Phase 2 | Supervised Learning | Not Started |
 | ⏳ Phase 3 | Unsupervised Learning | Not Started |
 | ⏳ Phase 4 | Deep Learning | Not Started |
@@ -37,11 +37,17 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 │   │   ├── practice.py
 │   │   └── day02.ipynb
 │   │
-│   └── Day_03_Conditional_Statements
+│   ├── Day_03_Conditional_Statements
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day03.ipynb
+│   │
+│   └── Day_04_Loops
 │       ├── theory.md
 │       ├── notes.md
 │       ├── practice.py
-│       └── day03.ipynb
+│       └── day04.ipynb
 │
 ├── datasets
 ├── images
@@ -62,7 +68,7 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 - ✅ Day 1 — Variables & Data Types
 - ✅ Day 2 — Python Operators
 - ✅ Day 3 — Conditional Statements
-- ⏳ Day 4 — Loops
+- ✅ Day 4 — Loops
 - ⏳ Day 5 — Functions
 - ⏳ Day 6 — Lists
 - ⏳ Day 7 — Tuples
@@ -84,14 +90,12 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 
 # 📖 Daily Learning Resources
 
-Each day includes:
+Each day's folder contains:
 
-- 📚 Theory Notes
-- 📝 Quick Revision Notes
-- 💻 Python Practice Exercises
-- 📓 Jupyter Notebook
-- 🎯 Interview Questions
-- 🧠 Hands-on Examples
+- 📚 **theory.md** — Detailed concept explanations with syntax and examples.
+- 📝 **notes.md** — Quick revision notes for interview preparation.
+- 💻 **practice.py** — Hands-on Python practice programs.
+- 📓 **dayXX.ipynb** — Interactive Jupyter Notebook with code examples and exercises.
 
 ---
 
@@ -124,28 +128,56 @@ Each day includes:
 
 By the end of this roadmap, I will be able to:
 
-- Write clean and efficient Python code
-- Perform data preprocessing and cleaning
-- Build and evaluate Machine Learning models
-- Develop Deep Learning applications
-- Work with NLP and Transformer models
-- Deploy Machine Learning models
-- Understand MLOps fundamentals
+- Write clean, readable, and efficient Python code.
+- Master Python programming fundamentals.
+- Perform data preprocessing and cleaning.
+- Analyze and visualize datasets.
+- Build and evaluate Machine Learning models.
+- Understand Deep Learning concepts.
+- Work with NLP and Transformer models.
+- Deploy Machine Learning applications.
+- Learn MLOps fundamentals and best practices.
 
 ---
 
 # 📈 Progress Tracker
 
-- ✅ Day 1 Completed
-- ✅ Day 2 Completed
-- ✅ Day 3 Completed
-- ⏳ Day 4 Coming Soon
+| Day | Topic | Status |
+|-----|-----------------------------|:------:|
+| 1 | Variables & Data Types | ✅ |
+| 2 | Python Operators | ✅ |
+| 3 | Conditional Statements | ✅ |
+| 4 | Loops | ✅ |
+| 5 | Functions | ⏳ |
+| 6 | Lists | ⏳ |
+| 7 | Tuples | ⏳ |
+| 8 | Dictionaries | ⏳ |
+| 9 | Sets | ⏳ |
+| 10 | Strings | ⏳ |
+| 11 | File Handling | ⏳ |
+| 12 | Exception Handling | ⏳ |
+| 13 | Object-Oriented Programming | ⏳ |
+| 14 | NumPy Basics | ⏳ |
+| 15 | Pandas Basics | ⏳ |
+| 16 | Data Cleaning | ⏳ |
+| 17 | Data Visualization | ⏳ |
+| 18 | Statistics | ⏳ |
+| 19 | Probability | ⏳ |
+| 20 | Mini Project | ⏳ |
+
+---
+
+# 🌟 About This Repository
+
+This repository is designed to serve as a complete learning journal for Python, Data Science, and Machine Learning. Every day includes theory, revision notes, practical coding exercises, and Jupyter notebooks to reinforce concepts through hands-on practice.
+
+Whether you're a beginner or revising the fundamentals, this roadmap can help you build a strong foundation before moving on to advanced Machine Learning topics.
 
 ---
 
 # ⭐ Support
 
-If you find this repository helpful, consider giving it a **⭐ Star**.
+If you find this repository helpful, consider giving it a **⭐ Star**. Your support motivates me to continue documenting and sharing my learning journey.
 
 ---
 
