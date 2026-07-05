@@ -1,8 +1,29 @@
 # 🚀 120 Days of Machine Learning
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Progress](https://img.shields.io/badge/Progress-Day%205%20of%20120-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-In%20Progress-success)
+
 A structured **120-day Machine Learning roadmap** documenting my journey from Python fundamentals to MLOps through hands-on coding, theory, notebooks, and mini projects.
 
-> 🎯 **Goal:** Build strong Machine Learning fundamentals and create a portfolio-ready GitHub repository.
+> 🎯 **Goal:** Build strong Machine Learning fundamentals, develop practical skills, and create a portfolio-ready GitHub repository.
+
+---
+
+# 🌟 Why This Repository?
+
+This repository is my personal learning journal where I document everything I learn during my 120-day Machine Learning journey.
+
+Each day includes:
+- 📚 Theory
+- 📝 Revision Notes
+- 💻 Hands-on Python Programs
+- 📓 Interactive Jupyter Notebook
+- 🚀 Practical Exercises
+
+The objective is to learn by building, maintain consistency, and create a resource that can also help other learners.
 
 ---
 
@@ -10,7 +31,7 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 
 | Phase | Topics | Status |
 |--------|--------|--------|
-| ✅ Phase 1 | Foundations | In Progress (Day 4/20) |
+| ✅ Phase 1 | Foundations | **In Progress (Day 5/20)** |
 | ⏳ Phase 2 | Supervised Learning | Not Started |
 | ⏳ Phase 3 | Unsupervised Learning | Not Started |
 | ⏳ Phase 4 | Deep Learning | Not Started |
@@ -26,28 +47,14 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 │
 ├── 01_Foundations
 │   ├── Day_01_Variables_and_Data_Types
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day01.ipynb
-│   │
 │   ├── Day_02_Python_Operators
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day02.ipynb
-│   │
 │   ├── Day_03_Conditional_Statements
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day03.ipynb
-│   │
-│   └── Day_04_Loops
+│   ├── Day_04_Loops
+│   └── Day_05_Functions
 │       ├── theory.md
 │       ├── notes.md
 │       ├── practice.py
-│       └── day04.ipynb
+│       └── day05.ipynb
 │
 ├── datasets
 ├── images
@@ -63,13 +70,13 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 
 # 🗺️ Roadmap
 
-## Phase 1 — Foundations (Days 1–20)
+## 📌 Phase 1 — Python Foundations (Days 1–20)
 
 - ✅ Day 1 — Variables & Data Types
 - ✅ Day 2 — Python Operators
 - ✅ Day 3 — Conditional Statements
 - ✅ Day 4 — Loops
-- ⏳ Day 5 — Functions
+- ✅ Day 5 — Functions
 - ⏳ Day 6 — Lists
 - ⏳ Day 7 — Tuples
 - ⏳ Day 8 — Dictionaries
@@ -88,14 +95,86 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 
 ---
 
+## 📌 Phase 2 — Supervised Learning (Days 21–45)
+
+- Linear Regression
+- Multiple Linear Regression
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (SVM)
+- Naive Bayes
+- Decision Trees
+- Random Forest
+- Gradient Boosting
+- XGBoost
+- Model Evaluation Metrics
+- Cross Validation
+- Hyperparameter Tuning
+
+---
+
+## 📌 Phase 3 — Unsupervised Learning (Days 46–65)
+
+- K-Means Clustering
+- Hierarchical Clustering
+- DBSCAN
+- Principal Component Analysis (PCA)
+- t-SNE
+- Association Rule Learning
+- Anomaly Detection
+
+---
+
+## 📌 Phase 4 — Deep Learning (Days 66–90)
+
+- Artificial Neural Networks (ANN)
+- TensorFlow
+- Keras
+- Convolutional Neural Networks (CNN)
+- Transfer Learning
+- Recurrent Neural Networks (RNN)
+- Long Short-Term Memory (LSTM)
+
+---
+
+## 📌 Phase 5 — NLP & Transformers (Days 91–105)
+
+- Text Preprocessing
+- Tokenization
+- TF-IDF
+- Word Embeddings
+- Word2Vec
+- GloVe
+- BERT
+- Hugging Face Transformers
+- Sentiment Analysis
+- Fake News Detection
+
+---
+
+## 📌 Phase 6 — MLOps & Deployment (Days 106–120)
+
+- Git & GitHub
+- Docker
+- Flask
+- FastAPI
+- Streamlit
+- MLflow
+- DVC
+- CI/CD
+- Model Deployment
+- End-to-End Machine Learning Project
+
+---
+
 # 📖 Daily Learning Resources
 
 Each day's folder contains:
 
-- 📚 **theory.md** — Detailed concept explanations with syntax and examples.
-- 📝 **notes.md** — Quick revision notes for interview preparation.
-- 💻 **practice.py** — Hands-on Python practice programs.
-- 📓 **dayXX.ipynb** — Interactive Jupyter Notebook with code examples and exercises.
+- 📚 **theory.md** – Detailed explanations with syntax and examples.
+- 📝 **notes.md** – Quick revision notes.
+- 💻 **practice.py** – Hands-on coding practice.
+- 📓 **dayXX.ipynb** – Interactive notebook with explanations and exercises.
 
 ---
 
@@ -113,6 +192,8 @@ Each day's folder contains:
 - Seaborn
 - Scikit-learn
 - SciPy
+- TensorFlow
+- Keras
 
 ### Tools
 
@@ -128,27 +209,28 @@ Each day's folder contains:
 
 By the end of this roadmap, I will be able to:
 
-- Write clean, readable, and efficient Python code.
-- Master Python programming fundamentals.
-- Perform data preprocessing and cleaning.
-- Analyze and visualize datasets.
-- Build and evaluate Machine Learning models.
-- Understand Deep Learning concepts.
-- Work with NLP and Transformer models.
-- Deploy Machine Learning applications.
-- Learn MLOps fundamentals and best practices.
+- ✅ Write clean, readable, and efficient Python code.
+- ✅ Master Python programming fundamentals.
+- ✅ Perform data preprocessing and cleaning.
+- ✅ Analyze and visualize datasets.
+- ✅ Build and evaluate Machine Learning models.
+- ✅ Apply feature engineering techniques.
+- ✅ Understand Deep Learning concepts.
+- ✅ Work with NLP and Transformer models.
+- ✅ Deploy Machine Learning applications.
+- ✅ Learn MLOps fundamentals and best practices.
 
 ---
 
 # 📈 Progress Tracker
 
 | Day | Topic | Status |
-|-----|-----------------------------|:------:|
+|------|------------------------------|:------:|
 | 1 | Variables & Data Types | ✅ |
 | 2 | Python Operators | ✅ |
 | 3 | Conditional Statements | ✅ |
 | 4 | Loops | ✅ |
-| 5 | Functions | ⏳ |
+| 5 | Functions | ✅ |
 | 6 | Lists | ⏳ |
 | 7 | Tuples | ⏳ |
 | 8 | Dictionaries | ⏳ |
@@ -167,17 +249,37 @@ By the end of this roadmap, I will be able to:
 
 ---
 
+# 🎓 Repository Goals
+
+By the completion of this roadmap, this repository will contain:
+
+- 📚 120 Theory Notes
+- 📝 120 Revision Notes
+- 💻 120 Python Practice Files
+- 📓 120 Jupyter Notebooks
+- 📊 Multiple Data Analysis Projects
+- 🤖 Machine Learning Algorithms
+- 🧠 Deep Learning Models
+- 📝 NLP Projects
+- 🚀 End-to-End Deployment Projects
+
+---
+
 # 🌟 About This Repository
 
-This repository is designed to serve as a complete learning journal for Python, Data Science, and Machine Learning. Every day includes theory, revision notes, practical coding exercises, and Jupyter notebooks to reinforce concepts through hands-on practice.
+This repository is designed as a complete learning journal for Python, Data Science, and Machine Learning.
 
-Whether you're a beginner or revising the fundamentals, this roadmap can help you build a strong foundation before moving on to advanced Machine Learning topics.
+It focuses on building strong fundamentals before moving into advanced topics. Every concept is reinforced with theory, coding practice, notebooks, and mini projects to encourage hands-on learning.
+
+Whether you're a beginner or revising core concepts, this repository aims to be a valuable resource throughout your Machine Learning journey.
 
 ---
 
 # ⭐ Support
 
-If you find this repository helpful, consider giving it a **⭐ Star**. Your support motivates me to continue documenting and sharing my learning journey.
+If you find this repository useful or inspiring, please consider giving it a **⭐ Star**.
+
+Your support motivates me to continue learning, improving, and sharing my progress with the community.
 
 ---
 
