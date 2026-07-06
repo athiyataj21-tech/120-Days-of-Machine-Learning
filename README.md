@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
-![Progress](https://img.shields.io/badge/Progress-Day%205%20of%20120-orange)
+![Progress](https://img.shields.io/badge/Progress-Day%206%20of%20120-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success)
 
@@ -17,6 +17,7 @@ A structured **120-day Machine Learning roadmap** documenting my journey from Py
 This repository is my personal learning journal where I document everything I learn during my 120-day Machine Learning journey.
 
 Each day includes:
+
 - 📚 Theory
 - 📝 Revision Notes
 - 💻 Hands-on Python Programs
@@ -31,7 +32,7 @@ The objective is to learn by building, maintain consistency, and create a resour
 
 | Phase | Topics | Status |
 |--------|--------|--------|
-| ✅ Phase 1 | Foundations | **In Progress (Day 5/20)** |
+| ✅ Phase 1 | Foundations | **In Progress (Day 6/20)** |
 | ⏳ Phase 2 | Supervised Learning | Not Started |
 | ⏳ Phase 3 | Unsupervised Learning | Not Started |
 | ⏳ Phase 4 | Deep Learning | Not Started |
@@ -47,14 +48,40 @@ The objective is to learn by building, maintain consistency, and create a resour
 │
 ├── 01_Foundations
 │   ├── Day_01_Variables_and_Data_Types
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day01.ipynb
+│   │
 │   ├── Day_02_Python_Operators
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day02.ipynb
+│   │
 │   ├── Day_03_Conditional_Statements
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day03.ipynb
+│   │
 │   ├── Day_04_Loops
-│   └── Day_05_Functions
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day04.ipynb
+│   │
+│   ├── Day_05_Functions
+│   │   ├── theory.md
+│   │   ├── notes.md
+│   │   ├── practice.py
+│   │   └── day05.ipynb
+│   │
+│   └── Day_06_Lists
 │       ├── theory.md
 │       ├── notes.md
 │       ├── practice.py
-│       └── day05.ipynb
+│       └── day06.ipynb
 │
 ├── datasets
 ├── images
@@ -77,7 +104,7 @@ The objective is to learn by building, maintain consistency, and create a resour
 - ✅ Day 3 — Conditional Statements
 - ✅ Day 4 — Loops
 - ✅ Day 5 — Functions
-- ⏳ Day 6 — Lists
+- ✅ Day 6 — Lists
 - ⏳ Day 7 — Tuples
 - ⏳ Day 8 — Dictionaries
 - ⏳ Day 9 — Sets
@@ -174,17 +201,17 @@ Each day's folder contains:
 - 📚 **theory.md** – Detailed explanations with syntax and examples.
 - 📝 **notes.md** – Quick revision notes.
 - 💻 **practice.py** – Hands-on coding practice.
-- 📓 **dayXX.ipynb** – Interactive notebook with explanations and exercises.
+- 📓 **dayXX.ipynb** – Interactive notebooks with explanations, examples, and exercises.
 
 ---
 
 # 🛠️ Tech Stack
 
-### Programming Language
+## Programming Language
 
 - Python 3.10+
 
-### Libraries
+## Libraries
 
 - NumPy
 - Pandas
@@ -195,7 +222,7 @@ Each day's folder contains:
 - TensorFlow
 - Keras
 
-### Tools
+## Tools
 
 - VS Code
 - Jupyter Notebook
@@ -231,7 +258,7 @@ By the end of this roadmap, I will be able to:
 | 3 | Conditional Statements | ✅ |
 | 4 | Loops | ✅ |
 | 5 | Functions | ✅ |
-| 6 | Lists | ⏳ |
+| 6 | Lists | ✅ |
 | 7 | Tuples | ⏳ |
 | 8 | Dictionaries | ⏳ |
 | 9 | Sets | ⏳ |
@@ -267,19 +294,13 @@ By the completion of this roadmap, this repository will contain:
 
 # 🌟 About This Repository
 
-This repository is designed as a complete learning journal for Python, Data Science, and Machine Learning.
-
-It focuses on building strong fundamentals before moving into advanced topics. Every concept is reinforced with theory, coding practice, notebooks, and mini projects to encourage hands-on learning.
-
-Whether you're a beginner or revising core concepts, this repository aims to be a valuable resource throughout your Machine Learning journey.
+This repository documents my journey of learning Python, Data Science, Machine Learning, Deep Learning, NLP, and MLOps over 120 days. Every topic includes theory, revision notes, coding practice, and an interactive notebook to reinforce learning through hands-on implementation.
 
 ---
 
 # ⭐ Support
 
-If you find this repository useful or inspiring, please consider giving it a **⭐ Star**.
-
-Your support motivates me to continue learning, improving, and sharing my progress with the community.
+If you find this repository useful, consider giving it a **⭐ Star**. Your support motivates me to continue learning, building projects, and sharing my progress with the community.
 
 ---
 
