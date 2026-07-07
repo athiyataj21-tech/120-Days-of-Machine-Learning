@@ -2,29 +2,58 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
-![Progress](https://img.shields.io/badge/Progress-Day%206%20of%20120-orange)
+![Progress](https://img.shields.io/badge/Progress-Day%207%20of%20120-orange)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success)
 
-A structured **120-day Machine Learning roadmap** documenting my journey from Python fundamentals to MLOps through hands-on coding, theory, notebooks, and mini projects.
+A structured **120-Day Machine Learning Roadmap** documenting my journey from Python fundamentals to MLOps through theory, coding practice, Jupyter notebooks, mini projects, and real-world Machine Learning applications.
 
-> 🎯 **Goal:** Build strong Machine Learning fundamentals, develop practical skills, and create a portfolio-ready GitHub repository.
+> 🎯 **Goal:** Master Machine Learning from scratch, build practical projects, and create a portfolio-ready GitHub repository.
 
 ---
 
 # 🌟 Why This Repository?
 
-This repository is my personal learning journal where I document everything I learn during my 120-day Machine Learning journey.
+This repository serves as my personal learning journal where I document everything I learn throughout my 120-day Machine Learning journey.
 
-Each day includes:
+Every day includes:
 
-- 📚 Theory
-- 📝 Revision Notes
-- 💻 Hands-on Python Programs
+- 📚 Detailed Theory Notes
+- 📝 Quick Revision Notes
+- 💻 Python Practice Programs
 - 📓 Interactive Jupyter Notebook
-- 🚀 Practical Exercises
+- 🚀 Hands-on Exercises
+- 🎯 Interview Preparation Concepts
 
-The objective is to learn by building, maintain consistency, and create a resource that can also help other learners.
+The primary objective is to build consistency, strengthen fundamentals, improve problem-solving skills, and develop real-world Machine Learning projects.
+
+---
+
+# ✨ Repository Highlights
+
+- ✅ 120-Day Structured Learning Roadmap
+- ✅ Python Programming from Beginner to Advanced
+- ✅ Data Analysis & Visualization
+- ✅ Machine Learning Algorithms
+- ✅ Deep Learning
+- ✅ Natural Language Processing (NLP)
+- ✅ Transformers & Generative AI
+- ✅ MLOps & Model Deployment
+- ✅ Daily Coding Practice
+- ✅ End-to-End Projects
+
+---
+
+# 📊 Current Progress
+
+| Metric | Status |
+|---------|--------|
+| 📅 Days Completed | **7 / 120** |
+| 📚 Theory Files | **7** |
+| 📝 Revision Notes | **7** |
+| 💻 Python Practice Files | **7** |
+| 📓 Jupyter Notebooks | **7** |
+| 📈 Overall Completion | **5.8%** |
 
 ---
 
@@ -32,7 +61,7 @@ The objective is to learn by building, maintain consistency, and create a resour
 
 | Phase | Topics | Status |
 |--------|--------|--------|
-| ✅ Phase 1 | Foundations | **In Progress (Day 6/20)** |
+| ✅ Phase 1 | Python Foundations | **In Progress (Day 7/20)** |
 | ⏳ Phase 2 | Supervised Learning | Not Started |
 | ⏳ Phase 3 | Unsupervised Learning | Not Started |
 | ⏳ Phase 4 | Deep Learning | Not Started |
@@ -48,77 +77,51 @@ The objective is to learn by building, maintain consistency, and create a resour
 │
 ├── 01_Foundations
 │   ├── Day_01_Variables_and_Data_Types
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day01.ipynb
-│   │
 │   ├── Day_02_Python_Operators
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day02.ipynb
-│   │
 │   ├── Day_03_Conditional_Statements
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day03.ipynb
-│   │
 │   ├── Day_04_Loops
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day04.ipynb
-│   │
 │   ├── Day_05_Functions
-│   │   ├── theory.md
-│   │   ├── notes.md
-│   │   ├── practice.py
-│   │   └── day05.ipynb
-│   │
-│   └── Day_06_Lists
-│       ├── theory.md
-│       ├── notes.md
-│       ├── practice.py
-│       └── day06.ipynb
+│   ├── Day_06_Lists
+│   ├── Day_07_Tuples
 │
 ├── datasets
 ├── images
 ├── resources
 │
-├── environment.yml
 ├── requirements.txt
+├── environment.yml
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-# 🗺️ Roadmap
+# 🗺️ 120-Day Roadmap
 
 ## 📌 Phase 1 — Python Foundations (Days 1–20)
 
-- ✅ Day 1 — Variables & Data Types
-- ✅ Day 2 — Python Operators
-- ✅ Day 3 — Conditional Statements
-- ✅ Day 4 — Loops
-- ✅ Day 5 — Functions
-- ✅ Day 6 — Lists
-- ⏳ Day 7 — Tuples
-- ⏳ Day 8 — Dictionaries
-- ⏳ Day 9 — Sets
-- ⏳ Day 10 — Strings
-- ⏳ Day 11 — File Handling
-- ⏳ Day 12 — Exception Handling
-- ⏳ Day 13 — Object-Oriented Programming (OOP)
-- ⏳ Day 14 — NumPy Basics
-- ⏳ Day 15 — Pandas Basics
-- ⏳ Day 16 — Data Cleaning
-- ⏳ Day 17 — Data Visualization
-- ⏳ Day 18 — Statistics
-- ⏳ Day 19 — Probability
-- ⏳ Day 20 — Mini Project
+| Day | Topic | Status |
+|-----|-------------------------------|:------:|
+| 1 | Variables & Data Types | ✅ |
+| 2 | Python Operators | ✅ |
+| 3 | Conditional Statements | ✅ |
+| 4 | Loops | ✅ |
+| 5 | Functions | ✅ |
+| 6 | Lists | ✅ |
+| 7 | Tuples | ✅ |
+| 8 | Dictionaries | ⏳ |
+| 9 | Sets | ⏳ |
+| 10 | Strings | ⏳ |
+| 11 | File Handling | ⏳ |
+| 12 | Exception Handling | ⏳ |
+| 13 | Object-Oriented Programming (OOP) | ⏳ |
+| 14 | NumPy Basics | ⏳ |
+| 15 | Pandas Basics | ⏳ |
+| 16 | Data Cleaning | ⏳ |
+| 17 | Data Visualization | ⏳ |
+| 18 | Statistics | ⏳ |
+| 19 | Probability | ⏳ |
+| 20 | Mini Project | ⏳ |
 
 ---
 
@@ -134,7 +137,8 @@ The objective is to learn by building, maintain consistency, and create a resour
 - Random Forest
 - Gradient Boosting
 - XGBoost
-- Model Evaluation Metrics
+- Feature Engineering
+- Model Evaluation
 - Cross Validation
 - Hyperparameter Tuning
 
@@ -145,7 +149,7 @@ The objective is to learn by building, maintain consistency, and create a resour
 - K-Means Clustering
 - Hierarchical Clustering
 - DBSCAN
-- Principal Component Analysis (PCA)
+- PCA
 - t-SNE
 - Association Rule Learning
 - Anomaly Detection
@@ -157,10 +161,11 @@ The objective is to learn by building, maintain consistency, and create a resour
 - Artificial Neural Networks (ANN)
 - TensorFlow
 - Keras
-- Convolutional Neural Networks (CNN)
+- CNN
 - Transfer Learning
-- Recurrent Neural Networks (RNN)
-- Long Short-Term Memory (LSTM)
+- RNN
+- LSTM
+- GRU
 
 ---
 
@@ -169,13 +174,14 @@ The objective is to learn by building, maintain consistency, and create a resour
 - Text Preprocessing
 - Tokenization
 - TF-IDF
-- Word Embeddings
 - Word2Vec
 - GloVe
+- FastText
 - BERT
 - Hugging Face Transformers
 - Sentiment Analysis
 - Fake News Detection
+- RAG Applications
 
 ---
 
@@ -189,7 +195,7 @@ The objective is to learn by building, maintain consistency, and create a resour
 - MLflow
 - DVC
 - CI/CD
-- Model Deployment
+- Cloud Deployment
 - End-to-End Machine Learning Project
 
 ---
@@ -198,31 +204,32 @@ The objective is to learn by building, maintain consistency, and create a resour
 
 Each day's folder contains:
 
-- 📚 **theory.md** – Detailed explanations with syntax and examples.
-- 📝 **notes.md** – Quick revision notes.
-- 💻 **practice.py** – Hands-on coding practice.
-- 📓 **dayXX.ipynb** – Interactive notebooks with explanations, examples, and exercises.
+- 📚 **theory.md** – Detailed explanations with examples
+- 📝 **notes.md** – Quick revision notes
+- 💻 **practice.py** – Coding exercises
+- 📓 **dayXX.ipynb** – Interactive notebook
+- 🚀 Practical implementations
 
 ---
 
 # 🛠️ Tech Stack
 
-## Programming Language
+### Programming Language
 
 - Python 3.10+
 
-## Libraries
+### Libraries
 
 - NumPy
 - Pandas
 - Matplotlib
 - Seaborn
-- Scikit-learn
 - SciPy
+- Scikit-learn
 - TensorFlow
 - Keras
 
-## Tools
+### Tools
 
 - VS Code
 - Jupyter Notebook
@@ -236,16 +243,32 @@ Each day's folder contains:
 
 By the end of this roadmap, I will be able to:
 
-- ✅ Write clean, readable, and efficient Python code.
-- ✅ Master Python programming fundamentals.
-- ✅ Perform data preprocessing and cleaning.
-- ✅ Analyze and visualize datasets.
-- ✅ Build and evaluate Machine Learning models.
-- ✅ Apply feature engineering techniques.
-- ✅ Understand Deep Learning concepts.
-- ✅ Work with NLP and Transformer models.
-- ✅ Deploy Machine Learning applications.
-- ✅ Learn MLOps fundamentals and best practices.
+- ✅ Write clean and efficient Python code
+- ✅ Perform data preprocessing and cleaning
+- ✅ Analyze and visualize datasets
+- ✅ Build Machine Learning models
+- ✅ Evaluate and optimize models
+- ✅ Apply feature engineering
+- ✅ Understand Deep Learning
+- ✅ Build NLP applications
+- ✅ Deploy Machine Learning applications
+- ✅ Learn MLOps best practices
+- ✅ Build production-ready AI projects
+
+---
+
+# 🚀 Upcoming Topics
+
+- 📖 Dictionaries
+- 📖 Sets
+- 📖 Strings
+- 📖 File Handling
+- 📖 Exception Handling
+- 📖 OOP
+- 📖 NumPy
+- 📖 Pandas
+- 📖 Data Cleaning
+- 📖 Data Visualization
 
 ---
 
@@ -259,51 +282,66 @@ By the end of this roadmap, I will be able to:
 | 4 | Loops | ✅ |
 | 5 | Functions | ✅ |
 | 6 | Lists | ✅ |
-| 7 | Tuples | ⏳ |
-| 8 | Dictionaries | ⏳ |
-| 9 | Sets | ⏳ |
-| 10 | Strings | ⏳ |
-| 11 | File Handling | ⏳ |
-| 12 | Exception Handling | ⏳ |
-| 13 | Object-Oriented Programming | ⏳ |
-| 14 | NumPy Basics | ⏳ |
-| 15 | Pandas Basics | ⏳ |
-| 16 | Data Cleaning | ⏳ |
-| 17 | Data Visualization | ⏳ |
-| 18 | Statistics | ⏳ |
-| 19 | Probability | ⏳ |
-| 20 | Mini Project | ⏳ |
+| 7 | Tuples | ✅ |
 
 ---
 
 # 🎓 Repository Goals
 
-By the completion of this roadmap, this repository will contain:
+By the completion of this roadmap, this repository will include:
 
-- 📚 120 Theory Notes
-- 📝 120 Revision Notes
-- 💻 120 Python Practice Files
-- 📓 120 Jupyter Notebooks
-- 📊 Multiple Data Analysis Projects
-- 🤖 Machine Learning Algorithms
-- 🧠 Deep Learning Models
+- 📚 120+ Theory Notes
+- 📝 120+ Revision Notes
+- 💻 120+ Python Programs
+- 📓 120+ Jupyter Notebooks
+- 📊 Data Analysis Projects
+- 🤖 Machine Learning Models
+- 🧠 Deep Learning Applications
 - 📝 NLP Projects
-- 🚀 End-to-End Deployment Projects
+- 🚀 End-to-End AI Applications
+- ☁️ Deployment Projects
 
 ---
 
-# 🌟 About This Repository
+# 📌 Final Outcome
 
-This repository documents my journey of learning Python, Data Science, Machine Learning, Deep Learning, NLP, and MLOps over 120 days. Every topic includes theory, revision notes, coding practice, and an interactive notebook to reinforce learning through hands-on implementation.
+After completing all 120 days, this repository will showcase:
+
+- Python Programming
+- Data Analysis
+- Machine Learning
+- Deep Learning
+- NLP
+- Computer Vision
+- Generative AI
+- MLOps
+- Model Deployment
+- Portfolio Projects
 
 ---
 
 # ⭐ Support
 
-If you find this repository useful, consider giving it a **⭐ Star**. Your support motivates me to continue learning, building projects, and sharing my progress with the community.
+If you find this repository helpful, please consider giving it a **⭐ Star**.
+
+Your support motivates me to continue learning, building projects, and sharing my progress with the community.
 
 ---
 
 # 📄 License
 
 This project is licensed under the **MIT License**.
+
+---
+
+## 📅 Current Status
+
+```text
+✅ Phase           : 1 / 6
+✅ Days Completed  : 7 / 120
+📚 Current Topic   : Tuples
+🎯 Next Topic      : Dictionaries
+📈 Completion      : 5.8%
+```
+
+**Happy Learning! 🚀**
