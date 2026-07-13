@@ -2,51 +2,64 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
-![Progress](https://img.shields.io/badge/Progress-Day%209%20Completed-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-Day%2010%20Completed-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-success)
 
-> 🎯 Goal: Master Machine Learning from scratch, build practical projects, and create a portfolio-ready GitHub repository.
+> 🎯 Goal: Master Machine Learning from scratch, build practical projects, and build a portfolio-ready GitHub repository.
 
 ---
 
 # 🌟 Why This Repository?
 
-This repository documents my complete **120-Day Machine Learning Journey**, covering everything from **Python fundamentals** to **Machine Learning, Deep Learning, NLP, Generative AI, and MLOps**.
+Welcome to my **120 Days of Machine Learning** journey.
 
-Each day contains structured learning materials including:
+This repository documents my complete learning roadmap from **Python Basics** to **Advanced Machine Learning, Deep Learning, NLP, Generative AI, and MLOps**.
+
+Every day contains well-organized learning resources including:
 
 - 📚 Detailed Theory Notes
 - 📝 Quick Revision Notes
 - 💻 Python Practice Programs
 - 📓 Interactive Jupyter Notebooks
 - 🌍 Real-world Examples
-- 🎯 Interview Preparation Questions
+- 🎯 Interview Questions
 - 🚀 Hands-on Exercises
 - 📌 Mini Projects
 - 📋 Cheat Sheets
 
-The objective is to build consistency, strengthen programming fundamentals, develop practical Machine Learning skills, and maintain a professional GitHub portfolio.
+The objective is to:
+
+- Build consistency
+- Strengthen Python programming
+- Learn Machine Learning step by step
+- Build practical projects
+- Prepare for interviews
+- Create an impressive GitHub portfolio
 
 ---
 
 # ✨ Repository Highlights
 
-- ✅ 120-Day Structured Machine Learning Roadmap
-- ✅ Daily Theory, Notes, Practice & Jupyter Notebooks
+- ✅ 120-Day Structured Roadmap
+- ✅ Daily Theory Notes
+- ✅ Daily Quick Notes
+- ✅ Daily Practice Programs
+- ✅ Jupyter Notebooks
+- ✅ Interview Questions
+- ✅ Mini Projects
 - ✅ Python Programming
-- ✅ Data Structures & Algorithms Basics
-- ✅ NumPy & Pandas
+- ✅ Data Structures Basics
+- ✅ NumPy
+- ✅ Pandas
+- ✅ Statistics
 - ✅ Data Visualization
-- ✅ Statistics & Probability
 - ✅ Machine Learning
 - ✅ Deep Learning
-- ✅ Natural Language Processing (NLP)
+- ✅ NLP
 - ✅ Generative AI
-- ✅ MLOps & Deployment
-- ✅ Interview Preparation
-- ✅ Real-world Projects
-- ✅ Portfolio-ready GitHub Repository
+- ✅ MLOps
+- ✅ Portfolio Projects
 
 ---
 
@@ -54,21 +67,21 @@ The objective is to build consistency, strengthen programming fundamentals, deve
 
 | Metric | Status |
 |--------|--------|
-| Days Completed | **9 / 120** |
-| Current Topic | **Python Sets (Completed)** |
-| Theory Files | **9** |
-| Notes | **9** |
-| Practice Files | **9** |
-| Jupyter Notebooks | **9** |
-| Overall Completion | **7.5%** |
+| Days Completed | **10 / 120** |
+| Current Topic | **Python Strings (Part 1 Completed)** |
+| Theory Files | **10** |
+| Notes | **10** |
+| Practice Files | **10** |
+| Jupyter Notebooks | **10** |
+| Overall Completion | **8.3%** |
 
 ---
 
 # 📅 Phase Progress
 
 | Phase | Status |
-|---|---|
-| ✅ Phase 1 – Python Foundations | **In Progress (9/20)** |
+|--------|--------|
+| ✅ Phase 1 – Python Foundations | **In Progress (10/20)** |
 | ⏳ Phase 2 – Supervised Learning | Not Started |
 | ⏳ Phase 3 – Unsupervised Learning | Not Started |
 | ⏳ Phase 4 – Deep Learning | Not Started |
@@ -91,11 +104,12 @@ The objective is to build consistency, strengthen programming fundamentals, deve
 │   ├── Day_06_Lists/
 │   ├── Day_07_Tuples/
 │   ├── Day_08_Dictionaries/
-│   └── Day_09_Sets/
+│   ├── Day_09_Sets/
+│   └── Day_10_Strings/
 │       ├── theory.md
 │       ├── notes.md
 │       ├── practice.py
-│       └── day09.ipynb
+│       └── day10.ipynb
 │
 ├── datasets/
 ├── images/
@@ -111,7 +125,7 @@ The objective is to build consistency, strengthen programming fundamentals, deve
 # 🗺️ Roadmap (Days 1–20)
 
 | Day | Topic | Status |
-|---|---|:---:|
+|-----|-------------------------------|:------:|
 | 1 | Variables & Data Types | ✅ |
 | 2 | Python Operators | ✅ |
 | 3 | Conditional Statements | ✅ |
@@ -120,8 +134,8 @@ The objective is to build consistency, strengthen programming fundamentals, deve
 | 6 | Lists | ✅ |
 | 7 | Tuples | ✅ |
 | 8 | Dictionaries | ✅ |
-| 9 | Sets | ✅ **Completed (Parts 1–5)** |
-| 10 | Strings | ⏳ |
+| 9 | Sets | ✅ Completed |
+| 10 | Python Strings | ✅ Part 1 Completed |
 | 11 | File Handling | ⏳ |
 | 12 | Exception Handling | ⏳ |
 | 13 | Object-Oriented Programming (OOP) | ⏳ |
@@ -135,136 +149,46 @@ The objective is to build consistency, strengthen programming fundamentals, deve
 
 ---
 
-# 🆕 Day 09 Completed Topics
+# 🆕 Day 10 Progress
 
-## 📚 Fundamentals
+## 📚 Completed (Part 1)
 
-- Introduction to Python Sets
-- Creating Sets
-- Empty Set vs Empty Dictionary
-- Set Properties
-- Mutable vs Immutable Objects
+### Fundamentals
 
-### 🔹 Set Methods
+- Introduction to Python Strings
+- What is a String?
+- Characteristics of Strings
+- Creating Strings
+- Types of Quotes
+- Multiline Strings
+- String Immutability
+- String Memory Representation
 
-- add()
-- update()
-- remove()
-- discard()
-- pop()
-- clear()
-- copy()
+### Indexing
 
-### 🔹 Mathematical Operations
+- Positive Indexing
+- Negative Indexing
+- IndexError
+- Character Access
 
-- Union
-- Intersection
-- Difference
-- Symmetric Difference
+### String Slicing
 
-### 🔹 Advanced Concepts
+- Basic Slicing
+- Start Index
+- Stop Index
+- Step Slicing
+- Reverse Strings
+- Copying Strings
 
-- update() vs union()
-- intersection_update()
-- difference_update()
-- symmetric_difference_update()
-- issubset()
-- issuperset()
-- isdisjoint()
-- frozenset()
-- Set Comprehension
-- Built-in Functions
-- Time Complexity
+### Built-in Functions
 
-### 🔹 Real-world Applications
-
-- Duplicate Removal
-- Student Course Analysis
-- Vocabulary Extraction (NLP)
-- Website Visitor Analysis
-- Product Recommendation
-- Data Cleaning
-
-### 🔹 Coding Practice
-
-- 10 Interview Coding Questions
-- Practical Exercises
-- Student Course Registration Mini Project
-- Common Mistakes
-- Python Sets Cheat Sheet
+- len()
+- max()
+- min()
+- sorted()
+- reversed()
+- enumerate()
 
 ---
 
-# 🎯 Next Topic
-
-## 📖 Day 10 – Python Strings
-
-Upcoming concepts:
-
-- String Basics
-- Indexing
-- Slicing
-- String Methods
-- Formatting
-- Escape Characters
-- String Operations
-- Regular Expressions
-- Practical Examples
-- Interview Questions
-
----
-
-# 📅 Current Status
-
-```text
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🚀 120 Days of Machine Learning
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✅ Days Completed : 9 / 120
-
-📚 Current Topic : Python Sets (Completed)
-
-🎯 Next Topic : Python Strings
-
-📈 Completion : 7.5%
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
----
-
-# 🔥 Progress
-
-```text
-Progress
-
-███████░░░░░░░░░░░░░░░░░░░░░ 7.5%
-```
-
----
-
-# ⭐ Support
-
-If you find this repository helpful, please consider giving it a **⭐ Star**.
-
-Your support motivates me to continue learning, building projects, and sharing my progress with the community.
-
----
-
-# 🤝 Connect With Me
-
-- 💻 **GitHub:** https://github.com/athiyataj21-tech
-- 💼 **LinkedIn:** *(Add your LinkedIn Profile)*
-
----
-
-# 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-**Happy Learning! 🚀**
+**➡️ Continue with Part 2 to complete the README (Day 10 topics, next topic, progress bar, support, connect, and license).**
