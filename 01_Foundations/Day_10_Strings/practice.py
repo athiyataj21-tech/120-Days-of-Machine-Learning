@@ -336,3 +336,355 @@ print("\n")
 print("=" * 50)
 print("End of Part 1 (Programs 1–35)")
 print("=" * 50)
+
+# ==========================================
+# Part 2 (Programs 36–70)
+# ==========================================
+
+print("\n" + "=" * 50)
+print("PART 2 - STRING METHODS & OPERATIONS")
+print("=" * 50)
+
+# ==========================================
+# Program 36
+# String Length
+# ==========================================
+
+print("\nProgram 36")
+text = "Machine Learning"
+print("Length:", len(text))
+
+# ==========================================
+# Program 37
+# Maximum Character
+# ==========================================
+
+print("\nProgram 37")
+text = "Python"
+print(max(text))
+
+# ==========================================
+# Program 38
+# Minimum Character
+# ==========================================
+
+print("\nProgram 38")
+text = "Python"
+print(min(text))
+
+# ==========================================
+# Program 39
+# Sorted Characters
+# ==========================================
+
+print("\nProgram 39")
+text = "python"
+print(sorted(text))
+
+# ==========================================
+# Program 40
+# Reverse using reversed()
+# ==========================================
+
+print("\nProgram 40")
+text = "Python"
+print(list(reversed(text)))
+
+# ==========================================
+# Program 41
+# Enumerate
+# ==========================================
+
+print("\nProgram 41")
+text = "Python"
+
+for index, char in enumerate(text):
+    print(index, char)
+
+# ==========================================
+# Program 42
+# Unicode using ord()
+# ==========================================
+
+print("\nProgram 42")
+print(ord("A"))
+print(ord("a"))
+
+# ==========================================
+# Program 43
+# Character using chr()
+# ==========================================
+
+print("\nProgram 43")
+print(chr(65))
+print(chr(97))
+
+# ==========================================
+# Program 44
+# upper()
+# ==========================================
+
+print("\nProgram 44")
+text = "python"
+print(text.upper())
+
+# ==========================================
+# Program 45
+# lower()
+# ==========================================
+
+print("\nProgram 45")
+text = "PYTHON"
+print(text.lower())
+
+# ==========================================
+# Program 46
+# capitalize()
+# ==========================================
+
+print("\nProgram 46")
+text = "machine learning"
+print(text.capitalize())
+
+# ==========================================
+# Program 47
+# title()
+# ==========================================
+
+print("\nProgram 47")
+text = "machine learning"
+print(text.title())
+
+# ==========================================
+# Program 48
+# swapcase()
+# ==========================================
+
+print("\nProgram 48")
+text = "PyThOn"
+print(text.swapcase())
+
+# ==========================================
+# Program 49
+# casefold()
+# ==========================================
+
+print("\nProgram 49")
+text = "HELLO"
+print(text.casefold())
+
+# ==========================================
+# Program 50
+# strip()
+# ==========================================
+
+print("\nProgram 50")
+text = "   Python   "
+print(text.strip())
+
+# ==========================================
+# Program 51
+# lstrip()
+# ==========================================
+
+print("\nProgram 51")
+text = "   Python"
+print(text.lstrip())
+
+# ==========================================
+# Program 52
+# rstrip()
+# ==========================================
+
+print("\nProgram 52")
+text = "Python   "
+print(text.rstrip())
+
+# ==========================================
+# Program 53
+# replace()
+# ==========================================
+
+print("\nProgram 53")
+text = "I like Java"
+print(text.replace("Java", "Python"))
+
+# ==========================================
+# Program 54
+# count()
+# ==========================================
+
+print("\nProgram 54")
+text = "banana"
+print(text.count("a"))
+
+# ==========================================
+# Program 55
+# find()
+# ==========================================
+
+print("\nProgram 55")
+text = "Machine"
+print(text.find("h"))
+
+# ==========================================
+# Program 56
+# index()
+# ==========================================
+
+print("\nProgram 56")
+text = "Machine"
+print(text.index("h"))
+
+# ==========================================
+# Program 57
+# startswith()
+# ==========================================
+
+print("\nProgram 57")
+text = "Machine Learning"
+print(text.startswith("Machine"))
+
+# ==========================================
+# Program 58
+# endswith()
+# ==========================================
+
+print("\nProgram 58")
+text = "Machine Learning"
+print(text.endswith("Learning"))
+
+# ==========================================
+# Program 59
+# isalpha()
+# ==========================================
+
+print("\nProgram 59")
+print("Python".isalpha())
+
+# ==========================================
+# Program 60
+# isdigit()
+# ==========================================
+
+print("\nProgram 60")
+print("12345".isdigit())
+
+# ==========================================
+# Program 61
+# isalnum()
+# ==========================================
+
+print("\nProgram 61")
+print("Python123".isalnum())
+
+# ==========================================
+# Program 62
+# isspace()
+# ==========================================
+
+print("\nProgram 62")
+print("   ".isspace())
+
+# ==========================================
+# Program 63
+# islower()
+# ==========================================
+
+print("\nProgram 63")
+print("python".islower())
+
+# ==========================================
+# Program 64
+# isupper()
+# ==========================================
+
+print("\nProgram 64")
+print("PYTHON".isupper())
+
+# ==========================================
+# Program 65
+# istitle()
+# ==========================================
+
+print("\nProgram 65")
+print("Machine Learning".istitle())
+
+# ==========================================
+# Program 66
+# Count Vowels
+# ==========================================
+
+print("\nProgram 66")
+
+text = "Machine Learning"
+
+count = 0
+
+for ch in text.lower():
+    if ch in "aeiou":
+        count += 1
+
+print("Vowels:", count)
+
+# ==========================================
+# Program 67
+# Count Consonants
+# ==========================================
+
+print("\nProgram 67")
+
+text = "Machine Learning"
+
+count = 0
+
+for ch in text.lower():
+    if ch.isalpha() and ch not in "aeiou":
+        count += 1
+
+print("Consonants:", count)
+
+# ==========================================
+# Program 68
+# Count Spaces
+# ==========================================
+
+print("\nProgram 68")
+
+text = "Machine Learning with Python"
+
+print(text.count(" "))
+
+# ==========================================
+# Program 69
+# Reverse without Slicing
+# ==========================================
+
+print("\nProgram 69")
+
+text = "Python"
+
+reverse = ""
+
+for ch in text:
+    reverse = ch + reverse
+
+print(reverse)
+
+# ==========================================
+# Program 70
+# Check Palindrome
+# ==========================================
+
+print("\nProgram 70")
+
+text = "madam"
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+print("\n" + "=" * 50)
+print("End of Part 2 (Programs 36–70)")
+print("=" * 50)
