@@ -762,4 +762,530 @@ f-strings
 Next Topic:
 
 **📂 Day 11 – File Handling**
+
 ````
+---
+
+# 📘 Day 10 – Python Strings (Quick Notes)
+
+# 🔹 Part 2 – String Operations & Methods
+
+---
+
+# String Operations
+
+## Concatenation (+)
+
+Used to join two or more strings.
+
+```python
+a = "Machine"
+b = "Learning"
+
+print(a + " " + b)
+```
+
+Output
+
+```
+Machine Learning
+```
+
+---
+
+## Repetition (*)
+
+Repeats a string multiple times.
+
+```python
+print("AI " * 3)
+```
+
+Output
+
+```
+AI AI AI
+```
+
+---
+
+## Membership Operators
+
+### in
+
+Checks if a substring exists.
+
+```python
+text = "Machine Learning"
+
+print("Machine" in text)
+```
+
+Output
+
+```
+True
+```
+
+### not in
+
+```python
+print("Python" not in text)
+```
+
+Output
+
+```
+True
+```
+
+---
+
+## Comparison Operators
+
+```python
+print("apple" == "apple")
+
+print("apple" != "banana")
+
+print("apple" < "banana")
+
+print("cat" > "ball")
+```
+
+---
+
+# Built-in Functions
+
+## len()
+
+Returns string length.
+
+```python
+len("Python")
+```
+
+Output
+
+```
+6
+```
+
+---
+
+## max()
+
+Returns largest character.
+
+```python
+max("Python")
+```
+
+Output
+
+```
+'y'
+```
+
+---
+
+## min()
+
+Returns smallest character.
+
+```python
+min("Python")
+```
+
+Output
+
+```
+'P'
+```
+
+---
+
+## sorted()
+
+Returns sorted list.
+
+```python
+sorted("python")
+```
+
+Output
+
+```
+['h', 'n', 'o', 'p', 't', 'y']
+```
+
+---
+
+## reversed()
+
+```python
+list(reversed("Python"))
+```
+
+Output
+
+```
+['n', 'o', 'h', 't', 'y', 'P']
+```
+
+---
+
+## enumerate()
+
+```python
+for i, ch in enumerate("Python"):
+    print(i, ch)
+```
+
+---
+
+## ord()
+
+Returns Unicode value.
+
+```python
+ord("A")
+```
+
+Output
+
+```
+65
+```
+
+---
+
+## chr()
+
+Returns character.
+
+```python
+chr(65)
+```
+
+Output
+
+```
+A
+```
+
+---
+
+# String Methods
+
+## upper()
+
+```python
+text = "python"
+
+print(text.upper())
+```
+
+Output
+
+```
+PYTHON
+```
+
+---
+
+## lower()
+
+```python
+text = "PYTHON"
+
+print(text.lower())
+```
+
+Output
+
+```
+python
+```
+
+---
+
+## capitalize()
+
+```python
+text = "machine learning"
+
+print(text.capitalize())
+```
+
+Output
+
+```
+Machine learning
+```
+
+---
+
+## title()
+
+```python
+text = "machine learning"
+
+print(text.title())
+```
+
+Output
+
+```
+Machine Learning
+```
+
+---
+
+## swapcase()
+
+```python
+text = "PyThOn"
+
+print(text.swapcase())
+```
+
+Output
+
+```
+pYtHoN
+```
+
+---
+
+## casefold()
+
+```python
+text = "HELLO"
+
+print(text.casefold())
+```
+
+Output
+
+```
+hello
+```
+
+---
+
+# Removing Spaces
+
+## strip()
+
+Removes spaces from both sides.
+
+```python
+text = "  Python  "
+
+print(text.strip())
+```
+
+---
+
+## lstrip()
+
+Removes spaces from the left.
+
+```python
+text = "  Python"
+
+print(text.lstrip())
+```
+
+---
+
+## rstrip()
+
+Removes spaces from the right.
+
+```python
+text = "Python  "
+
+print(text.rstrip())
+```
+
+---
+
+# Searching
+
+## find()
+
+Returns the first occurrence index.
+
+```python
+text = "Machine"
+
+print(text.find("h"))
+```
+
+Output
+
+```
+3
+```
+
+---
+
+## index()
+
+Works like `find()` but raises an error if the value is not found.
+
+```python
+text.index("h")
+```
+
+---
+
+## Difference
+
+| find() | index() |
+|---------|----------|
+| Returns -1 | Raises ValueError |
+
+---
+
+# Replace
+
+```python
+text = "I love Java"
+
+print(text.replace("Java", "Python"))
+```
+
+Output
+
+```
+I love Python
+```
+
+---
+
+# Count
+
+```python
+text = "banana"
+
+print(text.count("a"))
+```
+
+Output
+
+```
+3
+```
+
+---
+
+# Quick Revision Table
+
+| Method | Purpose |
+|---------|---------|
+| upper() | Uppercase |
+| lower() | Lowercase |
+| capitalize() | First letter uppercase |
+| title() | Every word capitalized |
+| swapcase() | Swap case |
+| casefold() | Aggressive lowercase |
+| strip() | Remove spaces |
+| lstrip() | Remove left spaces |
+| rstrip() | Remove right spaces |
+| replace() | Replace text |
+| count() | Count occurrences |
+| find() | Find substring |
+| index() | Find substring (error if missing) |
+
+---
+
+# Interview Questions
+
+1. What is string concatenation?
+2. Difference between `+` and `*` operators?
+3. Explain membership operators.
+4. Difference between `find()` and `index()`.
+5. Difference between `capitalize()` and `title()`.
+6. What does `casefold()` do?
+7. Difference between `strip()`, `lstrip()`, and `rstrip()`.
+8. Explain `ord()` and `chr()`.
+9. How does Python compare two strings?
+10. What is lexicographical ordering?
+
+---
+
+# Cheat Sheet
+
+```python
++
+
+*
+
+in
+
+not in
+
+len()
+
+max()
+
+min()
+
+sorted()
+
+reversed()
+
+enumerate()
+
+ord()
+
+chr()
+
+upper()
+
+lower()
+
+capitalize()
+
+title()
+
+swapcase()
+
+casefold()
+
+strip()
+
+lstrip()
+
+rstrip()
+
+replace()
+
+count()
+
+find()
+
+index()
+```
+
+---
+
+# Key Takeaways
+
+- Use `+` to join strings.
+- Use `*` to repeat strings.
+- Use `in` to search for substrings.
+- `find()` returns **-1** if not found.
+- `index()` raises **ValueError** if not found.
+- `strip()` removes whitespace.
+- `replace()` creates a new string.
+- Strings remain **immutable** even after using methods.
+
+---
+
+## ✅ Day 10 – Part 2 Completed
+
+**Next:** Part 3 – Splitting, Joining, Validation Methods, String Formatting, Escape Characters, and Raw Strings.
