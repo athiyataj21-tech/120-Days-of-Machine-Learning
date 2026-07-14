@@ -716,3 +716,620 @@ In **Part 2**, we'll cover:
 - String Methods (all important methods with examples)
 - Built-in String Functions
 - Time Complexity
+
+---
+
+# 📘 Part 2 – String Operations & Methods
+
+In Part 1, we learned about string creation, indexing, slicing, and immutability.
+
+In this part, we'll explore how to manipulate strings using Python's built-in operators, functions, and methods.
+
+---
+
+# String Operations
+
+Python provides several operators to perform operations on strings.
+
+| Operator | Description | Example |
+|----------|-------------|---------|
+| + | Concatenation | "Hello" + "World" |
+| * | Repetition | "Hi" * 3 |
+| in | Membership | "a" in "apple" |
+| not in | Non-membership | "z" not in "apple" |
+| == | Equality | "abc" == "abc" |
+| != | Not Equal | "abc" != "xyz" |
+
+---
+
+# String Concatenation
+
+Concatenation means joining two or more strings together.
+
+Example
+
+```python
+first = "Machine"
+
+second = "Learning"
+
+result = first + " " + second
+
+print(result)
+```
+
+Output
+
+```
+Machine Learning
+```
+
+---
+
+## Multiple String Concatenation
+
+```python
+a = "Python"
+
+b = "for"
+
+c = "Data Science"
+
+print(a + " " + b + " " + c)
+```
+
+Output
+
+```
+Python for Data Science
+```
+
+---
+
+# String Repetition
+
+The `*` operator repeats a string multiple times.
+
+Example
+
+```python
+print("AI " * 5)
+```
+
+Output
+
+```
+AI AI AI AI AI
+```
+
+---
+
+# Membership Operators
+
+Used to check whether a substring exists.
+
+## in Operator
+
+```python
+text = "Machine Learning"
+
+print("Machine" in text)
+
+print("Python" in text)
+```
+
+Output
+
+```
+True
+
+False
+```
+
+---
+
+## not in Operator
+
+```python
+text = "Machine Learning"
+
+print("Java" not in text)
+```
+
+Output
+
+```
+True
+```
+
+---
+
+# Comparison Operators
+
+Strings can be compared lexicographically.
+
+```python
+print("apple" == "apple")
+
+print("apple" != "banana")
+
+print("apple" < "banana")
+
+print("cat" > "ball")
+```
+
+Output
+
+```
+True
+
+True
+
+True
+
+True
+```
+
+---
+
+# Lexicographical Comparison
+
+Python compares strings character by character using Unicode values.
+
+Example
+
+```
+apple
+
+banana
+
+↓
+
+a vs b
+
+97 < 98
+
+Therefore
+
+apple < banana
+```
+
+---
+
+# Useful Built-in String Functions
+
+Python provides several built-in functions.
+
+---
+
+## len()
+
+Returns string length.
+
+```python
+text = "Machine"
+
+print(len(text))
+```
+
+Output
+
+```
+7
+```
+
+---
+
+## max()
+
+Returns the largest character.
+
+```python
+text = "Python"
+
+print(max(text))
+```
+
+Output
+
+```
+y
+```
+
+---
+
+## min()
+
+Returns the smallest character.
+
+```python
+print(min("Python"))
+```
+
+Output
+
+```
+P
+```
+
+---
+
+## sorted()
+
+Returns sorted characters.
+
+```python
+print(sorted("python"))
+```
+
+Output
+
+```
+['h', 'n', 'o', 'p', 't', 'y']
+```
+
+---
+
+## reversed()
+
+```python
+text = "Python"
+
+print(list(reversed(text)))
+```
+
+Output
+
+```
+['n','o','h','t','y','P']
+```
+
+---
+
+## enumerate()
+
+Returns index and value.
+
+```python
+text = "Python"
+
+for index, letter in enumerate(text):
+    print(index, letter)
+```
+
+Output
+
+```
+0 P
+
+1 y
+
+2 t
+
+3 h
+
+4 o
+
+5 n
+```
+
+---
+
+# ord()
+
+Returns Unicode value.
+
+```python
+print(ord("A"))
+
+print(ord("a"))
+```
+
+Output
+
+```
+65
+
+97
+```
+
+---
+
+# chr()
+
+Returns character from Unicode.
+
+```python
+print(chr(65))
+
+print(chr(97))
+```
+
+Output
+
+```
+A
+
+a
+```
+
+---
+
+# String Methods
+
+String methods are predefined functions used to manipulate strings.
+
+---
+
+# upper()
+
+Converts all characters to uppercase.
+
+```python
+text = "machine learning"
+
+print(text.upper())
+```
+
+Output
+
+```
+MACHINE LEARNING
+```
+
+---
+
+# lower()
+
+Converts all characters to lowercase.
+
+```python
+text = "PYTHON"
+
+print(text.lower())
+```
+
+Output
+
+```
+python
+```
+
+---
+
+# capitalize()
+
+Capitalizes only the first letter.
+
+```python
+text = "machine learning"
+
+print(text.capitalize())
+```
+
+Output
+
+```
+Machine learning
+```
+
+---
+
+# title()
+
+Capitalizes the first letter of every word.
+
+```python
+text = "machine learning"
+
+print(text.title())
+```
+
+Output
+
+```
+Machine Learning
+```
+
+---
+
+# swapcase()
+
+Swaps uppercase and lowercase letters.
+
+```python
+text = "PyThOn"
+
+print(text.swapcase())
+```
+
+Output
+
+```
+pYtHoN
+```
+
+---
+
+# casefold()
+
+More aggressive lowercase conversion.
+
+Useful in NLP.
+
+```python
+text = "HELLO"
+
+print(text.casefold())
+```
+
+Output
+
+```
+hello
+```
+
+---
+
+# strip()
+
+Removes spaces from both ends.
+
+```python
+text = "   Python   "
+
+print(text.strip())
+```
+
+Output
+
+```
+Python
+```
+
+---
+
+# lstrip()
+
+```python
+text = "   Python"
+
+print(text.lstrip())
+```
+
+Output
+
+```
+Python
+```
+
+---
+
+# rstrip()
+
+```python
+text = "Python    "
+
+print(text.rstrip())
+```
+
+Output
+
+```
+Python
+```
+
+---
+
+# replace()
+
+Replaces one substring with another.
+
+```python
+text = "I love Java"
+
+print(text.replace("Java","Python"))
+```
+
+Output
+
+```
+I love Python
+```
+
+---
+
+# count()
+
+Counts occurrences.
+
+```python
+text = "banana"
+
+print(text.count("a"))
+```
+
+Output
+
+```
+3
+```
+
+---
+
+# find()
+
+Returns index of first occurrence.
+
+```python
+text = "Machine"
+
+print(text.find("h"))
+```
+
+Output
+
+```
+3
+```
+
+---
+
+# index()
+
+Similar to find(), but raises an error if not found.
+
+```python
+text = "Machine"
+
+print(text.index("h"))
+```
+
+Output
+
+```
+3
+```
+
+---
+
+# Difference Between `find()` and `index()`
+
+| find() | index() |
+|---------|----------|
+| Returns -1 if not found | Raises ValueError |
+| Safer for searches | Use when the value must exist |
+
+---
+
+# Summary
+
+In this part, you learned:
+
+- String operators
+- Concatenation
+- Repetition
+- Membership operators
+- Comparison operators
+- Lexicographical comparison
+- Built-in string functions
+- Unicode functions
+- Case conversion methods
+- Whitespace removal methods
+- Searching methods
+- Replacing methods
+- Counting methods
+
+---
+
+## ✅ End of Part 2
+
+**Coming in Part 3:**
+- `split()`, `join()`
+- `startswith()`, `endswith()`
+- `isalpha()`, `isdigit()`, `isalnum()`
+- `center()`, `ljust()`, `rjust()`, `zfill()`
+- String formatting (`f-strings`, `format()`)
+- Escape characters
+- Raw strings
+- Advanced interview questions
